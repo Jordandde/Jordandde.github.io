@@ -5,7 +5,7 @@ export const Container = styled.div`
   height: 270vh;
 
   font-family: "Avenir Next";
-  font-size: 4vh;
+  font-size: 40vh;
   display: flex;
   flex-direction: column;
 `;

@@ -39,15 +39,16 @@ function App() {
   const [thirteen, setThirteen] = useState(false);
   const [fourteen, setFourteen] = useState(false);
 
-  const [song, setSong] = useState(null);
+  /* const [song, setSong] = useState(null);
   useEffect(() => {
     async function getSong() {
-      const res = await fetch("/api/song");
+      const res = await fetch("/api/music");
       const newSong = await res.text();
       setSong(newSong);
     }
     getSong();
   }, []);
+  */
   return (
     <div>
       <PhoneIntroContainer>

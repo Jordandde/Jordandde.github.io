@@ -100,6 +100,7 @@ export const Square = styled.a`
   :hover {
     p {
       font-size: 2vh;
+      transition: 1s;
     }
     font-size: 2vh;
     transform: scale(1.25);

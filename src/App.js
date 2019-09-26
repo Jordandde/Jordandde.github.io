@@ -148,7 +148,6 @@ function App() {
             <p
               style={{
                 width: "70%",
-                fontSize: !two ? "4vh" : "2vh",
                 height: !two ? "70%" : "10%"
               }}
             >

@@ -1,7 +1,8 @@
 package stream
 
-import "go.stevenxie.me/api/pkg/zero"
+import "jordandde/api/pkg/zero"
 
+// Streamer is an interface that allows for streaming of any object
 type Streamer interface {
 	// Stream returns a single channel of objects
 	Stream() <-chan zero.Interface

@@ -95,7 +95,7 @@ export const Square = styled.a`
     opacity: 1;
   }
   :hover {
-    font-size: 4vh;
+    font-size: 2vh;
     transform: scale(1.25);
     opacity: 1;
     z-index: 2;

@@ -140,7 +140,8 @@ function App() {
                 : "#89909f",
               color: !two ? "#e4798a" : "#ffdab9",
               marginLeft: "30%",
-              marginTop: "10%"
+              marginTop: "10%",
+              fontSize: "4vh"
             }}
             onMouseEnter={() => setTwo(!two)}
             onMouseLeave={() => setTwo(!two)}

@@ -4,7 +4,6 @@ import {
   FlexCol,
   FlexRow,
   Container,
-  Circle,
   PhoneBanner,
   Banner,
   PhoneIntroContainer,

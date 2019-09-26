@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./App.css";
 import {
   FlexCol,
@@ -38,6 +38,16 @@ function App() {
   const [twelve, setTwelve] = useState(false);
   const [thirteen, setThirteen] = useState(false);
   const [fourteen, setFourteen] = useState(false);
+
+  const [song, setSong] = useState(null);
+  useEffect(() => {
+    async function getSong() {
+      const res = await fetch("/api/song");
+      const newSong = await res.text();
+      setSong(newSong);
+    }
+    getSong();
+  }, []);
   return (
     <div>
       <PhoneIntroContainer>

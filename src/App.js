@@ -140,13 +140,18 @@ function App() {
                 : "#89909f",
               color: !two ? "#e4798a" : "#ffdab9",
               marginLeft: "30%",
-              marginTop: "10%",
-              fontSize: "4vh"
+              marginTop: "10%"
             }}
             onMouseEnter={() => setTwo(!two)}
             onMouseLeave={() => setTwo(!two)}
           >
-            <p style={{ width: "70%", height: !two ? "70%" : "10%" }}>
+            <p
+              style={{
+                width: "70%",
+                fontSize: !two ? "4vh" : "2vh",
+                height: !two ? "70%" : "10%"
+              }}
+            >
               Professional Musician
             </p>
             {two ? (

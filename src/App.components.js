@@ -91,10 +91,16 @@ export const Square = styled.a`
   color: #c3acce;
 
   transition: 1s;
+  p {
+    font-size: 4vh;
+  }
   @media only screen and (max-width: 751px) {
     opacity: 1;
   }
   :hover {
+    p {
+      font-size: 2vh;
+    }
     font-size: 2vh;
     transform: scale(1.25);
     opacity: 1;

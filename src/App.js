@@ -122,7 +122,7 @@ function App() {
             onMouseEnter={() => setOne(!one)}
             onMouseLeave={() => setOne(!one)}
           >
-            <p style={{ width: "70%", height: !one ? "70%" : "20%" }}>
+            <p style={{ width: "70%", height: !one ? "60%" : "20%" }}>
               Waterloo Electrical and Computer Engineering
             </p>
             {one ? (
@@ -148,7 +148,7 @@ function App() {
             <p
               style={{
                 width: "70%",
-                height: !two ? "70%" : "10%"
+                height: !two ? "50%" : "10%"
               }}
             >
               Professional Musician
@@ -175,7 +175,7 @@ function App() {
             onMouseEnter={() => setThree(!three)}
             onMouseLeave={() => setThree(!three)}
           >
-            <p style={{ width: "70%", height: !three ? "70%" : "10%" }}>
+            <p style={{ width: "70%", height: !three ? "50%" : "10%" }}>
               Software Developer
             </p>
             {three ? (
@@ -200,7 +200,7 @@ function App() {
             onMouseEnter={() => setFour(!four)}
             onMouseLeave={() => setFour(!four)}
           >
-            <p style={{ width: "70%", height: !four ? "70%" : "10%" }}>
+            <p style={{ width: "70%", height: !four ? "50%" : "10%" }}>
               Athletics
             </p>
             {four ? (
@@ -245,7 +245,7 @@ function App() {
             <p
               style={{
                 width: "80%",
-                height: !five ? "70%" : "10%",
+                height: !five ? "50%" : "10%",
                 textAlign: !five ? "center" : null,
                 marginTop: !five ? "30%" : null
               }}
@@ -278,7 +278,7 @@ function App() {
             <p
               style={{
                 width: "80%",
-                height: !six ? "60%" : "10%",
+                height: !six ? "50%" : "10%",
                 textAlign: !six ? "center" : null,
                 marginTop: !six ? "30%" : null
               }}
@@ -315,7 +315,7 @@ function App() {
             <p
               style={{
                 width: !seven ? "90%" : "80%",
-                height: !seven ? "70%" : "20%",
+                height: !seven ? "60%" : "20%",
                 textAlign: !seven ? "center" : null,
                 marginTop: !seven ? "20%" : null
               }}
@@ -351,7 +351,7 @@ function App() {
             <p
               style={{
                 width: "80%",
-                height: !eight ? "70%" : "20%",
+                height: !eight ? "60%" : "20%",
                 textAlign: !eight ? "center" : null,
                 marginTop: !eight ? "10%" : null
               }}
@@ -398,7 +398,7 @@ function App() {
             onMouseEnter={() => setNine(!nine)}
             onMouseLeave={() => setNine(!nine)}
           >
-            <p style={{ width: "80%", height: !nine ? "70%" : "20%" }}>
+            <p style={{ width: "80%", height: !nine ? "50%" : "20%" }}>
               SMS to Search Personal Project (In Development)
             </p>
             {nine ? (
@@ -423,7 +423,7 @@ function App() {
             onMouseEnter={() => setTen(!ten)}
             onMouseLeave={() => setTen(!ten)}
           >
-            <p style={{ width: "80%", height: !ten ? "70%" : "20%" }}>
+            <p style={{ width: "80%", height: !ten ? "50%" : "20%" }}>
               Light Tracking Solar Panel ECE Design Day Winner <br />
               (2019), Team of 4
             </p>
@@ -450,7 +450,7 @@ function App() {
             onMouseEnter={() => setEleven(!eleven)}
             onMouseLeave={() => setEleven(!eleven)}
           >
-            <p style={{ width: "80%", height: !eleven ? "70%" : "20%" }}>
+            <p style={{ width: "80%", height: !eleven ? "60%" : "20%" }}>
               Secure Ticketing System <br /> Yale Hacks <br />
               (2018), Team of 4
             </p>
@@ -476,7 +476,7 @@ function App() {
             onMouseEnter={() => setTwelve(!twelve)}
             onMouseLeave={() => setTwelve(!twelve)}
           >
-            <p style={{ width: "80%", height: !twelve ? "70%" : "20%" }}>
+            <p style={{ width: "80%", height: !twelve ? "60%" : "20%" }}>
               Laser Text Transfer System Personal Project (2018), Team of 3
             </p>
             {twelve ? (
@@ -520,7 +520,7 @@ function App() {
             onMouseEnter={() => setThirteen(!thirteen)}
             onMouseLeave={() => setThirteen(!thirteen)}
           >
-            <p style={{ width: "80%", height: !thirteen ? "70%" : "10%" }}>
+            <p style={{ width: "80%", height: !thirteen ? "40%" : "10%" }}>
               Contact Info
             </p>
             {thirteen ? (
@@ -546,7 +546,7 @@ function App() {
             onMouseEnter={() => setFourteen(!fourteen)}
             onMouseLeave={() => setFourteen(!fourteen)}
           >
-            <p style={{ width: "80%", height: !fourteen ? "70%" : "10%" }}>
+            <p style={{ width: "80%", height: !fourteen ? "40%" : "10%" }}>
               Resumé
             </p>
             {fourteen ? (

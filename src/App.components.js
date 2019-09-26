@@ -5,7 +5,7 @@ export const Container = styled.div`
   height: 270vh;
 
   font-family: "Avenir Next";
-  font-size: 40vh;
+  font-size: 4vh;
   display: flex;
   flex-direction: column;
 `;
@@ -95,7 +95,7 @@ export const Square = styled.a`
     opacity: 1;
   }
   :hover {
-    font-size: 2.5vh;
+    font-size: 4vh;
     transform: scale(1.25);
     opacity: 1;
     z-index: 2;

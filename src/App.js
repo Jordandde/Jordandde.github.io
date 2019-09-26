@@ -159,7 +159,7 @@ function App() {
             <p
               style={{
                 width: "70%",
-                height: !two ? "50%" : "10%"
+                height: !two ? "40%" : "10%"
               }}
             >
               Professional Musician

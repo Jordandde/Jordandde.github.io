@@ -54,7 +54,7 @@ function App() {
         <FlexCol>
           <PhoneBanner>Hi,</PhoneBanner>
           <PhoneBanner>I'm</PhoneBanner>
-          <PhoneBanner>Jorda</PhoneBanner>
+          <PhoneBanner>Jordan</PhoneBanner>
         </FlexCol>
       </PhoneIntroContainer>
       <IntroContainer

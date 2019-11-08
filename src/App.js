@@ -39,23 +39,22 @@ function App() {
   const [thirteen, setThirteen] = useState(false);
   const [fourteen, setFourteen] = useState(false);
 
-  /* const [song, setSong] = useState(null);
+  const [date, setDate] = useState(null);
   useEffect(() => {
-    async function getSong() {
-      const res = await fetch("/api/music");
-      const newSong = await res.text();
-      setSong(newSong);
+    async function getDate() {
+      const res = await fetch("/api/date");
+      const newDate = await res.text();
+      setDate(newDate);
     }
-    getSong();
+    getDate();
   }, []);
-  */
   return (
     <div>
       <PhoneIntroContainer>
         <FlexCol>
           <PhoneBanner>Hi,</PhoneBanner>
           <PhoneBanner>I'm</PhoneBanner>
-          <PhoneBanner>Jordan</PhoneBanner>
+          <PhoneBanner>Jorda</PhoneBanner>
         </FlexCol>
       </PhoneIntroContainer>
       <IntroContainer
@@ -119,6 +118,7 @@ function App() {
           <Jordandde>Jordandde</Jordandde>
           <Text>About Me</Text>
         </Banner>
+        <p>{date ? date : "Loading date..."}</p>
         <Center>
           <Square
             style={{

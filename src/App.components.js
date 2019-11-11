@@ -129,17 +129,21 @@ export const Banner = styled.div`
   z-index: 1;
 
   font-family: "Avenir Next";
-  font-size: 70px;
+  font-size: 8vh;
   font-style: bold;
 
   display: flex;
   align-items: center;
   justify-content: space-between;
+
   @media only screen and(max-width: 750px) {
     font-size: 40px;
   }
 `;
-
+export const Banner2 = styled(Banner)`
+  font-size: 5vh;
+  height: 10vh;
+`;
 export const PhoneBanner = styled(Banner)`
   position: relative;
   justify-content: center;

@@ -118,7 +118,7 @@ function App() {
           <Jordandde>Jordandde</Jordandde>
           <Text>About Me</Text>
         </Banner>
-        <p>{date ? date : "Loading date..."}</p>
+        <p>{date === "Mon/7" ? date : "Loading date..."}</p>
         <Center>
           <Square
             style={{

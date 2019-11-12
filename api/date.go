@@ -8,7 +8,8 @@ import (
 
 // Handler returns the current time
 func Handler(w http.ResponseWriter, r *http.Request) {
-	layout := "Mon/3/4"
-	currentTime := time.Now().Format(layout)
+	layout := "Mon/3/4 -0500"
+	loc, _ := time.LoadLocation("EST")
+	currentTime := time.Now().In(loc).Format(layout)
 	fmt.Fprintf(w, currentTime)
 }

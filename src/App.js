@@ -398,35 +398,10 @@ function App() {
         <Center>
           <Square
             style={{
-              background: !nine
-                ? "conic-gradient(#ffdab9, #dfd9e2, #ffdab9)"
-                : "#89909f",
-              marginLeft: "30%",
-              marginTop: "10%",
-              color: !nine ? "#c3acce" : "#ffdab9"
-            }}
-            href="//github.com/Jordandde/Golang-Twilio-texter.git"
-            onMouseEnter={() => setNine(!nine)}
-            onMouseLeave={() => setNine(!nine)}
-          >
-            <p style={{ width: "80%", height: !nine ? "50%" : "20%" }}>
-              SMS to Search Personal Project (In Development)
-            </p>
-            {nine ? (
-              <Description style={{}}>
-                When someone texts a search query to a certain phone number, it
-                will return the wikipedia result of that query. <br />
-                This project is written in Go and utilizes the Twilio API for
-                message sending and receiving.
-              </Description>
-            ) : null}
-          </Square>
-          <Square
-            style={{
               background: !ten
                 ? "conic-gradient(#ffdab9,#dfd9e2, #ffdab9)"
                 : "#89909f",
-              marginRight: "30%",
+              marginLeft: "30%",
               marginTop: "10%",
               color: !ten ? "#c3acce" : "#ffdab9"
             }}
@@ -453,7 +428,7 @@ function App() {
               background: !eleven
                 ? "conic-gradient(#dfd9e2, #c3acce, #dfd9e2)"
                 : "#89909f",
-              marginLeft: "30%",
+              marginRight: "30%",
               marginTop: "10%",
               color: !eleven ? "#e4798a" : "#ffdab9"
             }}
@@ -479,7 +454,7 @@ function App() {
               background: !twelve
                 ? "conic-gradient(#dfd9e2, #c3acce, #dfd9e2)"
                 : "#89909f",
-              marginRight: "30%",
+              marginLeft: "30%",
               marginTop: "10%",
               color: !twelve ? "#e4798a" : "#ffdab9"
             }}
@@ -496,6 +471,30 @@ function App() {
                 morse code for discrete, secure, communications without leaving
                 behind any traceable evidence. <br />
                 Written in C with hardware controlled by a Raspberry Pi
+              </Description>
+            ) : null}
+          </Square>
+          <Square
+            style={{
+              background: !nine
+                ? "conic-gradient(#ffdab9, #dfd9e2, #ffdab9)"
+                : "#89909f",
+              marginRight: "30%",
+              marginTop: "10%",
+              color: !nine ? "#c3acce" : "#ffdab9"
+            }}
+            href="https://github.com/Jordandde/Connect-Four.git"
+            onMouseEnter={() => setNine(!nine)}
+            onMouseLeave={() => setNine(!nine)}
+          >
+            <p style={{ width: "80%", height: !nine ? "50%" : "20%" }}>
+              Connect Four, Personal Project
+            </p>
+            {nine ? (
+              <Description style={{}}>
+                A normal game of Connect Four <br />
+                This project is written in Java and I am working on converting
+                it into a webapp
               </Description>
             ) : null}
           </Square>

@@ -1,0 +1,7 @@
+setcurrent = 0
+<Container>
+<Banner>Jordandde
+<text> if 1 about me ...
+<onClick, setcurrent 0
+<Container>
+{page[current]}

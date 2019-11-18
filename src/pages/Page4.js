@@ -1,14 +1,21 @@
 import React, { useState, useEffect } from "react";
-import { Container, Center, Square, Description } from "../App.components";
+import {
+  Container,
+  Center,
+  Square,
+  Description,
+  Banner2,
+  Title,
+  Text
+} from "../App.components";
 
 const Page4 = () => {
   const [thirteen, setThirteen] = useState(0);
   const [fourteen, setFourteen] = useState(0);
-  const [fifteen, setFifteen] = useState(0);
   const [date, setDate] = useState(null);
   useEffect(() => {
     async function getDate() {
-      const res = await fetch("/api/date");
+      const res = await fetch("/api/handler/date");
       const newDate = await res.text();
       setDate(newDate);
     }
@@ -18,9 +25,17 @@ const Page4 = () => {
   return (
     <Container
       style={{
-        height: "150vh"
+        height: "170vh",
+        background: "linear-gradient(180deg, #c3acce 10%, #9ad1d4 60%, #ffdab9)"
       }}
     >
+      {" "}
+      <Banner2 style={{ color: "#ffdab9" }}>
+        <Title style={{ color: "#ffdab9" }} href="jordandde.com">
+          Back
+        </Title>
+        <Text>About</Text>
+      </Banner2>
       <Center>
         <Square
           style={{
@@ -58,6 +73,7 @@ const Page4 = () => {
             marginTop: "10%",
             color: !fourteen ? "#e4798a" : "#ffdab9"
           }}
+          href="https://drive.google.com/open?id=1IZQ9-2ZYfcYA-1ddf7UjzcCiHR-SZXpR"
           onMouseEnter={() => setFourteen(!fourteen)}
           onMouseLeave={() => setFourteen(!fourteen)}
         >
@@ -66,13 +82,12 @@ const Page4 = () => {
           </p>
           {fourteen ? (
             <Description>
-              I will upload my resumé in a few days, as this I am currently
-              researching the best way to do this. Please contact me if you know
-              a good way to do this.
+              Click on this box to be redirected to my Resumé, hosted on Google
+              Drive
             </Description>
           ) : null}
         </Square>
-        <Square
+        {/* <Square
           style={{
             background: !fifteen
               ? "conic-gradient(#9ad1d4, #ffdab9, #9ad1d4)"
@@ -88,6 +103,7 @@ const Page4 = () => {
             Schedule
           </p>
         </Square>
+        */}
       </Center>
     </Container>
   );

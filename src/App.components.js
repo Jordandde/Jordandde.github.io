@@ -8,6 +8,7 @@ export const Container = styled.div`
   font-size: 4vh;
   display: flex;
   flex-direction: column;
+  text-decoration: none;
 `;
 
 export const PhoneIntroContainer = styled(Container)`
@@ -70,6 +71,31 @@ export const Circle = styled.div`
 
   .wrap:hover & {
     transform: scale(50vh);
+  }
+`;
+export const Rectangle = styled.a`
+  height: 40vh;
+  width: 100%;
+
+  text-decoration: none;
+
+  display: flex;
+
+  position: relative;
+  flex-direction: row;
+  justify-content: space-between;
+  p {
+    font-size: 4vh;
+  }
+  :hover {
+    p {
+      font-size: 3vh;
+      transition: 1s;
+    }
+    font-size: 2vh;
+    color: #dfd9e2;
+    background: #89909f;
+    box-shadow: 0.2vh 0.4vh 0.5vh 0.6vh #c3acce;
   }
 `;
 export const Square = styled.a`
@@ -141,8 +167,9 @@ export const Banner = styled.div`
   }
 `;
 export const Banner2 = styled(Banner)`
-  font-size: 5vh;
+  font-size: 8vh;
   height: 10vh;
+  text-decoration: none;
 `;
 export const PhoneBanner = styled(Banner)`
   position: relative;
@@ -153,6 +180,16 @@ export const Jordandde = styled.div`
   padding-left: 20px;
   @media only screen and (max-width: 750px) {
     display: none;
+  }
+`;
+export const Title = styled.a`
+  padding-left: 20px;
+
+  text-decoration: none;
+  text-decoration-line: none;
+  color: #c3acce;
+  @media only screen and (max-width: 750px) {
+    dispaly: none;
   }
 `;
 

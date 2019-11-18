@@ -1,5 +1,13 @@
 import React, { useState } from "react";
-import { Container, Description, Center, Square } from "../App.components";
+import {
+  Container,
+  Title,
+  Banner2,
+  Text,
+  Description,
+  Center,
+  Square
+} from "../App.components";
 
 const Page2 = () => {
   const [five, setFive] = useState(0);
@@ -9,9 +17,15 @@ const Page2 = () => {
   return (
     <Container
       style={{
-        height: "251vh"
+        height: "270vh",
+        background: "linear-gradient(180deg, #9ad1d4 10%, #dfd9e2 60%, #ffdab9)"
       }}
     >
+      {" "}
+      <Banner2>
+        <Title href="jordandde.com">Back</Title>
+        <Text>Experience</Text>
+      </Banner2>
       <Center>
         <Square
           style={{

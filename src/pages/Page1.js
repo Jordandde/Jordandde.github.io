@@ -1,5 +1,13 @@
 import React, { useState } from "react";
-import { Container, Description, Center, Square } from "../App.components";
+import {
+  Container,
+  Banner2,
+  Text,
+  Description,
+  Center,
+  Square,
+  Title
+} from "../App.components";
 
 const Page1 = () => {
   const [one, setOne] = useState(0);
@@ -9,9 +17,18 @@ const Page1 = () => {
   return (
     <Container
       style={{
-        height: "251vh"
+        height: "270vh",
+        background:
+          "linear-gradient(180deg, #dfd9e2 10%, #c3acce 60%, #9ad1d4)",
+        color: "#c3acce"
       }}
     >
+      <Banner2 style={{ color: "#e4798a" }}>
+        <Title style={{ color: "#e4798a" }} href="jordandde.com">
+          Back
+        </Title>
+        <Text>About</Text>
+      </Banner2>
       <Center>
         <Square
           style={{
@@ -105,13 +122,14 @@ const Page1 = () => {
           onMouseLeave={() => setFour(!four)}
         >
           <p style={{ width: "70%", height: !four ? "50%" : "10%" }}>
-            Athletics
+            Looking for Coop
           </p>
           {four ? (
             <Description style={{ maringTop: "1vh" }}>
-              I compete in Table Tennis tournaments, as well as run track. I am
-              currently learning Kendo, as well as trying to get better at
-              basketball
+              I am currently looking for a coop position for winter 2020,
+              starting in January. If you have, or know of, any positions,
+              please contact me through email. My resume and email can be found
+              under the Contact Me section
             </Description>
           ) : null}
         </Square>

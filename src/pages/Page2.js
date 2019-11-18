@@ -23,7 +23,7 @@ const Page2 = () => {
     >
       {" "}
       <Banner2>
-        <Title href="jordandde.com">Back</Title>
+        <Title href="/">Back</Title>
         <Text>Experience</Text>
       </Banner2>
       <Center>

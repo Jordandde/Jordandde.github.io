@@ -64,7 +64,7 @@ const Page3 = () => {
     >
       {" "}
       <Banner2>
-        <Title href="jordandde.com">Back</Title>
+        <Title href="/">Back</Title>
         <Text>Projects</Text>
       </Banner2>
       <Center>

@@ -31,7 +31,7 @@ const Page4 = () => {
     >
       {" "}
       <Banner2 style={{ color: "#ffdab9" }}>
-        <Title style={{ color: "#ffdab9" }} href="jordandde.com">
+        <Title style={{ color: "#ffdab9" }} href="/">
           Back
         </Title>
         <Text>About</Text>

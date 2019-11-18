@@ -95,7 +95,7 @@ function App() {
               marginTop: "10%",
               transition: "1s"
             }}
-            href="jordandde.com/About"
+            href="About"
             onMouseEnter={() => setOne(!one)}
             onMouseLeave={() => setOne(!one)}
           >
@@ -119,7 +119,7 @@ function App() {
               marginTop: "10%",
               transition: "1s"
             }}
-            href="jordandde.com/Experience"
+            href="Experience"
             onMouseEnter={() => setTwo(!two)}
             onMouseLeave={() => setTwo(!two)}
           >
@@ -143,7 +143,7 @@ function App() {
               marginTop: "10%",
               transition: "1s"
             }}
-            href="jordandde.com/Projects"
+            href="Projects"
             onMouseEnter={() => setThree(!three)}
             onMouseLeave={() => setThree(!three)}
           >
@@ -166,7 +166,7 @@ function App() {
               marginTop: "10%",
               transition: "1s"
             }}
-            href="jordandde.com/Contact"
+            href="Contact"
             onMouseEnter={() => setFour(!four)}
             onMouseLeave={() => setFour(!four)}
           >

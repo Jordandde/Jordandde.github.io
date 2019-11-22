@@ -7,12 +7,17 @@ import Page2 from "./pages/Page2";
 import Page3 from "./pages/Page3";
 import Page4 from "./pages/Page4";
 import Page1 from "./pages/Page1";
+import OldApp from "./OldApp";
 import * as serviceWorker from "./serviceWorker";
 
 const routing = (
   <Router>
     <div>
-      <Route exact path="/" component={App} />
+      {window.innerHeight <= 750 ? (
+        <Route exact path="/" component={OldApp} />
+      ) : (
+        <Route exact path="/" component={App} />
+      )}
       <Route path="/About" component={Page1} />
       <Route path="/Experience" component={Page2} />
       <Route path="/Projects" component={Page3} />

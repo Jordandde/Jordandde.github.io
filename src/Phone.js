@@ -51,54 +51,12 @@ function App() {
     <div>
       <PhoneIntroContainer>
         <FlexCol>
-          <PhoneBanner>Hi,</PhoneBanner>
+          <PhoneBanner>Hi, I'm</PhoneBanner>
           <PhoneBanner>I'm</PhoneBanner>
           <PhoneBanner>Jordan</PhoneBanner>
         </FlexCol>
       </PhoneIntroContainer>
-      <IntroContainer
-        style={{
-          justifyContent: "space-between",
-          background: "linear-gradient(180deg, #ffdab9 20%,#dfd9e2)"
-        }}
-      >
-        {/*separate the word by what gets covered and what doesn't, and then have the z-index of what gets covered disappear*/}
-        <FlexRow
-          style={{ height: "100%", justifyContent: "center", color: "#c3acce" }}
-        >
-          <FlexCol
-            style={{
-              paddingRight: 30
-            }}
-          >
-            <Banner>Hi, I'm</Banner>
-          </FlexCol>
-          <FlexCol>
-            <Banner>Jord</Banner>
-          </FlexCol>
-          <FlexCol>
-            <Banner style={{ position: "relative" }}>an</Banner>
-            <Banner>and</Banner>
-          </FlexCol>
-          <FlexCol>
-            <Banner
-              style={{
-                marginTop: "19vh",
-                position: "relative"
-              }}
-            >
-              rew
-            </Banner>
-            <Banner>de</Banner>
-          </FlexCol>
-          <FlexCol>
-            <Banner style={{ marginTop: "38vh", position: "relative" }}>
-              Souza
-            </Banner>
-            <Banner />
-          </FlexCol>
-        </FlexRow>
-      </IntroContainer>
+
       <Container
         className="app"
         style={{
@@ -125,7 +83,6 @@ function App() {
               background: !one
                 ? "conic-gradient(#ffdab9,#dfd9e2,#ffdab9"
                 : "#89909f",
-              marginRight: "30%",
               marginTop: "10%",
               transition: "1s"
             }}
@@ -149,7 +106,6 @@ function App() {
                 ? "conic-gradient(#dfd9e2, #c3acce, #dfd9e2)"
                 : "#89909f",
               color: !two ? "#e4798a" : "#ffdab9",
-              marginLeft: "30%",
               marginTop: "10%"
             }}
             onMouseEnter={() => setTwo(!two)}
@@ -179,7 +135,6 @@ function App() {
               background: !three
                 ? "conic-gradient(#c3acce, #dfd9e2, #c3acce)"
                 : "#89909f",
-              marginRight: "30%",
               marginTop: "10%"
             }}
             onMouseEnter={() => setThree(!three)}
@@ -205,7 +160,6 @@ function App() {
                 : "#89909f",
               color: "#ffdab9",
               marginTop: "10%",
-              marginLeft: "30%"
             }}
             onMouseEnter={() => setFour(!four)}
             onMouseLeave={() => setFour(!four)}
@@ -245,7 +199,6 @@ function App() {
               background: !five
                 ? "conic-gradient(#9ad1d4, #dfd9e2 , #9ad1d4)"
                 : "#89909f",
-              marginLeft: "30%",
               color: !five ? "#e4798a" : "#ffdab9",
               marginTop: "10%"
             }}
@@ -278,7 +231,6 @@ function App() {
               background: !six
                 ? "conic-gradient(#9ad1d4, #dfd9e2, #9ad1d4)"
                 : "#89909f",
-              marginRight: "30%",
               color: !six ? "#e4798a" : "#ffdab9",
               marginTop: "10%"
             }}
@@ -314,7 +266,7 @@ function App() {
               background: !seven
                 ? "conic-gradient(#dfd9e2, #ffdab9 , #dfd9e2)"
                 : "#89909f",
-              marginLeft: "30%",
+
               marginTop: "10%",
 
               color: !seven ? "#e4798a" : "#ffdab9"
@@ -351,7 +303,7 @@ function App() {
               background: !eight
                 ? "conic-gradient(#dfd9e2, #ffdab9 , #dfd9e2)"
                 : "#89909f",
-              marginRight: "30%",
+
               color: !eight ? "#e4798a" : "#ffdab9",
               marginTop: "10%"
             }}
@@ -400,7 +352,6 @@ function App() {
               background: !ten
                 ? "conic-gradient(#ffdab9,#dfd9e2, #ffdab9)"
                 : "#89909f",
-              marginLeft: "30%",
               marginTop: "10%",
               color: !ten ? "#c3acce" : "#ffdab9"
             }}
@@ -427,7 +378,7 @@ function App() {
               background: !eleven
                 ? "conic-gradient(#dfd9e2, #c3acce, #dfd9e2)"
                 : "#89909f",
-              marginRight: "30%",
+
               marginTop: "10%",
               color: !eleven ? "#e4798a" : "#ffdab9"
             }}
@@ -453,7 +404,6 @@ function App() {
               background: !twelve
                 ? "conic-gradient(#dfd9e2, #c3acce, #dfd9e2)"
                 : "#89909f",
-              marginLeft: "30%",
               marginTop: "10%",
               color: !twelve ? "#e4798a" : "#ffdab9"
             }}
@@ -478,7 +428,7 @@ function App() {
               background: !nine
                 ? "conic-gradient(#ffdab9, #dfd9e2, #ffdab9)"
                 : "#89909f",
-              marginRight: "30%",
+
               marginTop: "10%",
               color: !nine ? "#c3acce" : "#ffdab9"
             }}
@@ -521,7 +471,7 @@ function App() {
               background: !thirteen
                 ? "conic-gradient(#c3acce, #9ad1d4, #c3acce)"
                 : "#89909f",
-              marginRight: "30%",
+
               marginTop: "10%",
               color: "#ffdab9"
             }}
@@ -548,7 +498,6 @@ function App() {
               background: !fourteen
                 ? "conic-gradient(#9ad1d4, #ffdab9,#9ad1d4) "
                 : "#89909f",
-              marginLeft: "30%",
               marginTop: "10%",
               color: !fourteen ? "#e4798a" : "#ffdab9"
             }}

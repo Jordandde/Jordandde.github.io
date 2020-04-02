@@ -50,11 +50,28 @@ function App() {
   return (
     <div>
       <PhoneIntroContainer>
-        <FlexCol>
+          <FlexRow>
+             <FlexCol>
           <PhoneBanner>Hi, I'm</PhoneBanner>
-          <PhoneBanner>I'm</PhoneBanner>
-          <PhoneBanner>Jordan</PhoneBanner>
+
         </FlexCol>
+            <FlexCol
+              style={{marginLeft: 20}}>
+            <PhoneBanner style={{position: "sticky"}}>Jord</PhoneBanner>
+            </FlexCol>
+            <FlexCol>
+              <PhoneBanner>an</PhoneBanner>
+              <PhoneBanner style={{position: "sticky"}}>and</PhoneBanner>
+            </FlexCol>
+            <FlexCol>
+              <PhoneBanner style={{marginTop: "19vh"}}>rew</PhoneBanner>
+              <PhoneBanner style={{position: "sticky"}}>de</PhoneBanner>
+            </FlexCol>
+            <FlexCol>
+              <PhoneBanner style={{marginTop: "38vh"}}>Souza</PhoneBanner>
+              <PhoneBanner />
+            </FlexCol>
+          </FlexRow>
       </PhoneIntroContainer>
 
       <Container

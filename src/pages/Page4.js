@@ -87,23 +87,6 @@ const Page4 = () => {
             </Description>
           ) : null}
         </Square>
-        {/* <Square
-          style={{
-            background: !fifteen
-              ? "conic-gradient(#9ad1d4, #ffdab9, #9ad1d4)"
-              : "#89909f",
-            marginLeft: "30%",
-            marginTop: "10%",
-            color: !fifteen ? "e4798a" : "#ffdab9"
-          }}
-          onMouseEnter={() => setFifteen(!fifteen)}
-          onMouseLeave={() => setFifteen(!fifteen)}
-        >
-          <p style={{ width: "80%", height: !fifteen ? "40%" : "10%" }}>
-            Schedule
-          </p>
-        </Square>
-        */}
       </Center>
     </Container>
   );

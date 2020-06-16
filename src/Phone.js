@@ -43,12 +43,18 @@ function App() {
       <PhoneIntroContainer>
         <FlexCol>
           <PhoneBanner>Hi, I'm</PhoneBanner>
-          <PhoneBanner>Jord</PhoneBanner>
-          <PhoneBanner>an</PhoneBanner>
-          <PhoneBanner>And</PhoneBanner>
-          <PhoneBanner>rew</PhoneBanner>
-          <PhoneBanner>de</PhoneBanner>
-          <PhoneBanner> Souza</PhoneBanner>
+          <FlexRow>
+            <PhoneBanner>Jord</PhoneBanner>
+            <PhoneBanner>an</PhoneBanner>
+          </FlexRow>
+          <FlexRow>
+            <PhoneBanner>And</PhoneBanner>
+            <PhoneBanner>rew</PhoneBanner>
+          </FlexRow>
+          <FlexRow>
+            <PhoneBanner>de</PhoneBanner>
+            <PhoneBanner> Souza</PhoneBanner>
+          </FlexRow>
         </FlexCol>
       </PhoneIntroContainer>
       <Container

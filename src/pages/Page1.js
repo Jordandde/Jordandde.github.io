@@ -126,8 +126,8 @@ const Page1 = () => {
           </p>
           {four ? (
             <Description style={{ maringTop: "1vh" }}>
-              I am currently looking for a coop position for winter 2020,
-              starting in January. If you have, or know of, any positions,
+              I am currently looking for a coop position for fall 2020,
+              starting in September. If you have, or know of, any positions,
               please contact me through email. My resume and email can be found
               under the Contact Me section
             </Description>

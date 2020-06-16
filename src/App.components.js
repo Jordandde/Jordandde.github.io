@@ -174,6 +174,9 @@ export const Banner2 = styled(Banner)`
 export const PhoneBanner = styled(Banner)`
   position: relative;
   justify-content: center;
+
+  top: 0;
+  z-index: 1;
 `;
 
 export const Jordandde = styled.div`

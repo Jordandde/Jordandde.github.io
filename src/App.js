@@ -3,10 +3,8 @@ import {
   FlexCol,
   FlexRow,
   Container,
-  PhoneBanner,
   Banner2,
   Banner,
-  PhoneIntroContainer,
   Description,
   Text,
   Center,
@@ -22,13 +20,6 @@ function App() {
   const [four, setFour] = useState(false);
   return (
     <div>
-      <PhoneIntroContainer>
-        <FlexCol>
-          <PhoneBanner>Hi,</PhoneBanner>
-          <PhoneBanner>I'm</PhoneBanner>
-          <PhoneBanner>Jordan</PhoneBanner>
-        </FlexCol>
-      </PhoneIntroContainer>
       <IntroContainer
         style={{
           justifyContent: "space-between",

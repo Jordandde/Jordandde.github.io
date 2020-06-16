@@ -103,7 +103,6 @@ function App() {
                 ? "conic-gradient(#dfd9e2, #c3acce, #dfd9e2)"
                 : "#89909f",
               color: !two ? "#e4798a" : "#ffdab9",
-              marginLeft: "30%",
               marginTop: "10%",
             }}
             onMouseEnter={() => setTwo(!two)}
@@ -133,7 +132,6 @@ function App() {
               background: !three
                 ? "conic-gradient(#c3acce, #dfd9e2, #c3acce)"
                 : "#89909f",
-              marginRight: "30%",
               marginTop: "10%",
             }}
             onMouseEnter={() => setThree(!three)}
@@ -144,11 +142,11 @@ function App() {
             </p>
             {three ? (
               <Description style={{ marginTop: "1vh" }}>
-                I have 2 years of experience, and I am profficient in Go, C/C++,
-                Javascript, Java, Python, Swift, SQL, and C#. I have
-                professional experience working as a full-stack developer, where
-                I used Go for back end, and React.js for front end, as well as
-                Redux to help sort out the states
+                I have 3 years of personal development experience and a year of
+                professional experience, and I am profficient in Go, C/C++,
+                Javascript, Java, Python, Swift, SQL, and C#. I gained
+                professional experience through my various co-op positions,
+                where I used Go for back end, and React.js for front end
               </Description>
             ) : null}
           </Square>
@@ -159,7 +157,6 @@ function App() {
                 : "#89909f",
               color: "#ffdab9",
               marginTop: "10%",
-              marginLeft: "30%",
             }}
             onMouseEnter={() => setFour(!four)}
             onMouseLeave={() => setFour(!four)}

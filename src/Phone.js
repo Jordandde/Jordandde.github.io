@@ -44,8 +44,9 @@ function App() {
         <FlexCol>
           <PhoneBanner>Hi, I'm</PhoneBanner>
           <FlexRow>
-            <PhoneBanner>Jord</PhoneBanner>
-            <PhoneBanner>an</PhoneBanner>
+            <PhoneBanner>
+              <div style={{ color: "#ffdab9" }}>Jord</div>an
+            </PhoneBanner>
           </FlexRow>
           <FlexRow>
             <PhoneBanner>And</PhoneBanner>

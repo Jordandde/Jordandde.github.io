@@ -41,7 +41,15 @@ function App() {
   return (
     <div>
       <PhoneIntroContainer>
-        <FlexRow></FlexRow>
+        <FlexCol>
+          <PhoneBanner>Hi, I'm</PhoneBanner>
+          <PhoneBanner>Jord</PhoneBanner>
+          <PhoneBanner>an</PhoneBanner>
+          <PhoneBanner>And</PhoneBanner>
+          <PhoneBanner>rew</PhoneBanner>
+          <PhoneBanner>de</PhoneBanner>
+          <PhoneBanner> Souza</PhoneBanner>
+        </FlexCol>
       </PhoneIntroContainer>
       <Container
         className="app"

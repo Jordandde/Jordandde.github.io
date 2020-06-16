@@ -38,45 +38,11 @@ function App() {
   const [thirteen, setThirteen] = useState(false);
   const [fourteen, setFourteen] = useState(false);
 
-  const [date, setDate] = useState(null);
-  useEffect(() => {
-    async function getDate() {
-      const res = await fetch("/api/date");
-      const newDate = await res.text();
-      setDate(newDate);
-    }
-    getDate();
-  }, []);
   return (
     <div>
       <PhoneIntroContainer>
-          <FlexRow>
-             <FlexCol>
-          <PhoneBanner>Hi, I'm</PhoneBanner>
-
-        </FlexCol>
-            <FlexCol
-              style={{marginLeft: 20}}>
-            <PhoneBanner style={{position: "sticky"}}>Jord</PhoneBanner>
-            </FlexCol>
-            <FlexCol>
-              <PhoneBanner>an</PhoneBanner>
-              <PhoneBanner style={{position: "sticky"}}>and</PhoneBanner>
-            </FlexCol>
-            <FlexCol>
-              <PhoneBanner style={{marginTop: "19vh"}}>rew</PhoneBanner>
-              <PhoneBanner style={{position: "sticky"}}>de</PhoneBanner>
-            </FlexCol>
-            <FlexCol>
-              <PhoneBanner style={{marginTop: "38vh"}}>Souza</PhoneBanner>
-              <PhoneBanner />
-            </FlexCol>
-          </FlexRow>
+        <FlexRow></FlexRow>
       </PhoneIntroContainer>
-<<<<<<< HEAD:src/OldApp.js
-=======
-
->>>>>>> a31736c172237c13f0a7ba502b30061c99c0d9c2:src/Phone.js
       <Container
         className="app"
         style={{
@@ -126,12 +92,8 @@ function App() {
                 ? "conic-gradient(#dfd9e2, #c3acce, #dfd9e2)"
                 : "#89909f",
               color: !two ? "#e4798a" : "#ffdab9",
-<<<<<<< HEAD:src/OldApp.js
               marginLeft: "30%",
               marginTop: "10%",
-=======
-              marginTop: "10%"
->>>>>>> a31736c172237c13f0a7ba502b30061c99c0d9c2:src/Phone.js
             }}
             onMouseEnter={() => setTwo(!two)}
             onMouseLeave={() => setTwo(!two)}
@@ -160,12 +122,8 @@ function App() {
               background: !three
                 ? "conic-gradient(#c3acce, #dfd9e2, #c3acce)"
                 : "#89909f",
-<<<<<<< HEAD:src/OldApp.js
               marginRight: "30%",
               marginTop: "10%",
-=======
-              marginTop: "10%"
->>>>>>> a31736c172237c13f0a7ba502b30061c99c0d9c2:src/Phone.js
             }}
             onMouseEnter={() => setThree(!three)}
             onMouseLeave={() => setThree(!three)}
@@ -190,10 +148,7 @@ function App() {
                 : "#89909f",
               color: "#ffdab9",
               marginTop: "10%",
-<<<<<<< HEAD:src/OldApp.js
               marginLeft: "30%",
-=======
->>>>>>> a31736c172237c13f0a7ba502b30061c99c0d9c2:src/Phone.js
             }}
             onMouseEnter={() => setFour(!four)}
             onMouseLeave={() => setFour(!four)}

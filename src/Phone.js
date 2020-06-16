@@ -43,19 +43,15 @@ function App() {
       <PhoneIntroContainer>
         <FlexCol>
           <PhoneBanner>Hi, I'm</PhoneBanner>
-          <FlexRow>
-            <PhoneBanner>
-              <div style={{ color: "#ffdab9" }}>Jord</div>an
-            </PhoneBanner>
-          </FlexRow>
-          <FlexRow>
-            <PhoneBanner>And</PhoneBanner>
-            <PhoneBanner>rew</PhoneBanner>
-          </FlexRow>
-          <FlexRow>
-            <PhoneBanner>de</PhoneBanner>
-            <PhoneBanner> Souza</PhoneBanner>
-          </FlexRow>
+          <PhoneBanner>
+            <div style={{ color: "#9ad1d4" }}>Jord</div>an
+          </PhoneBanner>
+          <PhoneBanner>
+            <div style={{ color: "#9ad1d4" }}>And</div>rew
+          </PhoneBanner>
+          <PhoneBanner>
+            <div style={{ color: "#9ad1d4" }}>de</div> Souza
+          </PhoneBanner>
         </FlexCol>
       </PhoneIntroContainer>
       <Container

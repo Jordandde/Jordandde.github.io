@@ -11,7 +11,7 @@ import {
   Center,
   IntroContainer,
   Square,
-  Jordandde
+  Jordandde,
 } from "./App.components";
 //TODO: // is used to send to a new webite
 //TODO: change background  color to  gray when the mouse is hovering over a  square,  change font colors  to make it readable
@@ -56,62 +56,19 @@ function App() {
           <PhoneBanner>Jordan</PhoneBanner>
         </FlexCol>
       </PhoneIntroContainer>
-      <IntroContainer
-        style={{
-          justifyContent: "space-between",
-          background: "linear-gradient(180deg, #ffdab9 20%,#dfd9e2)"
-        }}
-      >
-        {/*separate the word by what gets covered and what doesn't, and then have the z-index of what gets covered disappear*/}
-        <FlexRow
-          style={{ height: "100%", justifyContent: "center", color: "#c3acce" }}
-        >
-          <FlexCol
-            style={{
-              paddingRight: 30
-            }}
-          >
-            <Banner>Hi, I'm</Banner>
-          </FlexCol>
-          <FlexCol>
-            <Banner>Jord</Banner>
-          </FlexCol>
-          <FlexCol>
-            <Banner style={{ position: "relative" }}>an</Banner>
-            <Banner>and</Banner>
-          </FlexCol>
-          <FlexCol>
-            <Banner
-              style={{
-                marginTop: "19vh",
-                position: "relative"
-              }}
-            >
-              rew
-            </Banner>
-            <Banner>de</Banner>
-          </FlexCol>
-          <FlexCol>
-            <Banner style={{ marginTop: "38vh", position: "relative" }}>
-              Souza
-            </Banner>
-            <Banner />
-          </FlexCol>
-        </FlexRow>
-      </IntroContainer>
       <Container
         className="app"
         style={{
           background:
             "linear-gradient(180deg, #dfd9e2 10%, #c3acce 60%, #9ad1d4 )",
-          color: "#c3acce"
+          color: "#c3acce",
         }}
       >
         <Banner
           style={{
             //background: "linear-gradient(160deg ,#dfd9e2 10%, #ffdab9)",
             background: "#dfd9e2",
-            color: "#c3acce"
+            color: "#c3acce",
           }}
         >
           <Jordandde>Jordandde</Jordandde>
@@ -127,7 +84,7 @@ function App() {
                 : "#89909f",
               marginRight: "30%",
               marginTop: "10%",
-              transition: "1s"
+              transition: "1s",
             }}
             onMouseEnter={() => setOne(!one)}
             onMouseLeave={() => setOne(!one)}
@@ -150,7 +107,7 @@ function App() {
                 : "#89909f",
               color: !two ? "#e4798a" : "#ffdab9",
               marginLeft: "30%",
-              marginTop: "10%"
+              marginTop: "10%",
             }}
             onMouseEnter={() => setTwo(!two)}
             onMouseLeave={() => setTwo(!two)}
@@ -158,7 +115,7 @@ function App() {
             <p
               style={{
                 width: "70%",
-                height: !two ? "40%" : "10%"
+                height: !two ? "40%" : "10%",
               }}
             >
               Professional Musician
@@ -180,7 +137,7 @@ function App() {
                 ? "conic-gradient(#c3acce, #dfd9e2, #c3acce)"
                 : "#89909f",
               marginRight: "30%",
-              marginTop: "10%"
+              marginTop: "10%",
             }}
             onMouseEnter={() => setThree(!three)}
             onMouseLeave={() => setThree(!three)}
@@ -205,7 +162,7 @@ function App() {
                 : "#89909f",
               color: "#ffdab9",
               marginTop: "10%",
-              marginLeft: "30%"
+              marginLeft: "30%",
             }}
             onMouseEnter={() => setFour(!four)}
             onMouseLeave={() => setFour(!four)}
@@ -226,14 +183,14 @@ function App() {
       <Container
         style={{
           background:
-            "linear-gradient(180deg, #9ad1d4 10%, #dfd9e2 60%, #ffdab9)"
+            "linear-gradient(180deg, #9ad1d4 10%, #dfd9e2 60%, #ffdab9)",
         }}
       >
         <Banner
           Id="banner1"
           style={{
             color: "#dfd9e2",
-            background: "#9ad1d4"
+            background: "#9ad1d4",
           }}
         >
           <Jordandde>Jordandde</Jordandde>
@@ -247,7 +204,7 @@ function App() {
                 : "#89909f",
               marginLeft: "30%",
               color: !five ? "#e4798a" : "#ffdab9",
-              marginTop: "10%"
+              marginTop: "10%",
             }}
             onMouseEnter={() => setFive(!five)}
             onMouseLeave={() => setFive(!five)}
@@ -257,7 +214,7 @@ function App() {
                 width: "80%",
                 height: !five ? "50%" : "10%",
                 textAlign: !five ? "center" : null,
-                marginTop: !five ? "30%" : null
+                marginTop: !five ? "30%" : null,
               }}
             >
               Languages
@@ -280,7 +237,7 @@ function App() {
                 : "#89909f",
               marginRight: "30%",
               color: !six ? "#e4798a" : "#ffdab9",
-              marginTop: "10%"
+              marginTop: "10%",
             }}
             onMouseEnter={() => setSix(!six)}
             onMouseLeave={() => setSix(!six)}
@@ -290,7 +247,7 @@ function App() {
                 width: "80%",
                 height: !six ? "50%" : "10%",
                 textAlign: !six ? "center" : null,
-                marginTop: !six ? "30%" : null
+                marginTop: !six ? "30%" : null,
               }}
             >
               Frameworks, Libraries, and Tools
@@ -317,7 +274,7 @@ function App() {
               marginLeft: "30%",
               marginTop: "10%",
 
-              color: !seven ? "#e4798a" : "#ffdab9"
+              color: !seven ? "#e4798a" : "#ffdab9",
             }}
             onMouseEnter={() => setSeven(!seven)}
             onMouseLeave={() => setSeven(!seven)}
@@ -327,7 +284,7 @@ function App() {
                 width: !seven ? "90%" : "80%",
                 height: !seven ? "60%" : "20%",
                 textAlign: !seven ? "center" : null,
-                marginTop: !seven ? "20%" : null
+                marginTop: !seven ? "20%" : null,
               }}
             >
               Tugolo, <br />
@@ -353,7 +310,7 @@ function App() {
                 : "#89909f",
               marginRight: "30%",
               color: !eight ? "#e4798a" : "#ffdab9",
-              marginTop: "10%"
+              marginTop: "10%",
             }}
             onMouseEnter={() => setEight(!eight)}
             onMouseLeave={() => setEight(!eight)}
@@ -363,7 +320,7 @@ function App() {
                 width: "80%",
                 height: !eight ? "60%" : "20%",
                 textAlign: !eight ? "center" : null,
-                marginTop: !eight ? "10%" : null
+                marginTop: !eight ? "10%" : null,
               }}
             >
               Midnight Sun, Solar Car <br /> Telemetry Team Member <br /> 09/18
@@ -382,13 +339,14 @@ function App() {
       </Container>
       <Container
         style={{
-          background: "linear-gradient(180deg, #ffdab9 10%,#dfd9e2 60%,#c3acce "
+          background:
+            "linear-gradient(180deg, #ffdab9 10%,#dfd9e2 60%,#c3acce ",
         }}
       >
         <Banner
           style={{
             color: "#e4798a",
-            background: "#ffdab9"
+            background: "#ffdab9",
           }}
         >
           <Jordandde>Jordandde</Jordandde>
@@ -402,7 +360,7 @@ function App() {
                 : "#89909f",
               marginLeft: "30%",
               marginTop: "10%",
-              color: !ten ? "#c3acce" : "#ffdab9"
+              color: !ten ? "#c3acce" : "#ffdab9",
             }}
             href="//github.com/Jordandde/Solar-Charging-Sun-Tracking-Battery.git"
             onMouseEnter={() => setTen(!ten)}
@@ -429,7 +387,7 @@ function App() {
                 : "#89909f",
               marginRight: "30%",
               marginTop: "10%",
-              color: !eleven ? "#e4798a" : "#ffdab9"
+              color: !eleven ? "#e4798a" : "#ffdab9",
             }}
             href="https://www.hackerearth.com/challenges/hackathon/yhack-2018/dashboard/163ea9a/submission/?fbclid=IwAR0CG-hYgm2ui1mRBbY6SZ5ZpI9MjmFcuaABbmw0Pnb5u3AHcD-QTa8-ScU"
             onMouseEnter={() => setEleven(!eleven)}
@@ -455,7 +413,7 @@ function App() {
                 : "#89909f",
               marginLeft: "30%",
               marginTop: "10%",
-              color: !twelve ? "#e4798a" : "#ffdab9"
+              color: !twelve ? "#e4798a" : "#ffdab9",
             }}
             href="https://github.com/Jordandde/Secure-Laser-Communication-System.git"
             onMouseEnter={() => setTwelve(!twelve)}
@@ -480,7 +438,7 @@ function App() {
                 : "#89909f",
               marginRight: "30%",
               marginTop: "10%",
-              color: !nine ? "#c3acce" : "#ffdab9"
+              color: !nine ? "#c3acce" : "#ffdab9",
             }}
             href="https://github.com/Jordandde/Connect-Four.git"
             onMouseEnter={() => setNine(!nine)}
@@ -503,13 +461,13 @@ function App() {
         style={{
           height: "150vh",
           background:
-            "linear-gradient(180deg, #c3acce 10%, #9ad1d4 60%, #ffdab9)"
+            "linear-gradient(180deg, #c3acce 10%, #9ad1d4 60%, #ffdab9)",
         }}
       >
         <Banner
           style={{
             color: "#ffdab9",
-            background: "#c3acce"
+            background: "#c3acce",
           }}
         >
           <Jordandde>Jordandde</Jordandde>
@@ -523,7 +481,7 @@ function App() {
                 : "#89909f",
               marginRight: "30%",
               marginTop: "10%",
-              color: "#ffdab9"
+              color: "#ffdab9",
             }}
             href="mailto:jordandesouza5@gmail.com?subject=Hello"
             onMouseEnter={() => setThirteen(!thirteen)}
@@ -550,7 +508,7 @@ function App() {
                 : "#89909f",
               marginLeft: "30%",
               marginTop: "10%",
-              color: !fourteen ? "#e4798a" : "#ffdab9"
+              color: !fourteen ? "#e4798a" : "#ffdab9",
             }}
             onMouseEnter={() => setFourteen(!fourteen)}
             onMouseLeave={() => setFourteen(!fourteen)}

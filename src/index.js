@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import { Route, BrowserRouter as Router } from "react-router-dom";
 import "./index.css";
 import App from "./App";
+import construction from "./construction.js";
 import Page2 from "./pages/Page2";
 import Page3 from "./pages/Page3";
 import Page4 from "./pages/Page4";
@@ -16,7 +17,8 @@ const routing = (
       {window.innerHeight <= 750 ? (
         <Route exact path="/" component={Phone} />
       ) : (
-        <Route exact path="/" component={App} />
+        //<Route exact path="/" component={App} />
+        <Route exact path="/" component={construction}/>
       )}
       <Route path="/About" component={Page1} />
       <Route path="/Experience" component={Page2} />

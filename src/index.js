@@ -17,8 +17,7 @@ const routing = (
       {window.innerHeight <= 750 ? (
         <Route exact path="/" component={Phone} />
       ) : (
-        //<Route exact path="/" component={App} />
-        <Route exact path="/" component={construction}/>
+        <Route exact path="/" component={App} />
       )}
       <Route path="/About" component={Page1} />
       <Route path="/Experience" component={Page2} />
